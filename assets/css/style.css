@@ -484,6 +484,9 @@ Extra height css
     position: fixed;
     top: 0;
 }
+.cd-header img{
+    width:100px
+}
 .cd-header.small{
     background: #333;
 }
@@ -737,6 +740,10 @@ Tobias section
 }
 .main_portfolio_content .single_portfolio img{
     width:100%;
+    transition: 0.2s ease-in-out;
+}
+.main_portfolio_content .single_portfolio img:hover {
+    transform: scale(1.02)
 }
 
 
@@ -848,5 +855,6 @@ Tobias section
     text-decoration: none;
 
 }
+
 
 
